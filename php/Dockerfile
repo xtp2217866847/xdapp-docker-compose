@@ -47,10 +47,10 @@ RUN docker-php-ext-install bcmath
 
 #安装protobuf
 RUN apt-get install -y wget autoconf automake libtool curl make g++ unzip
-RUN wget https://github.com/protocolbuffers/protobuf/releases/download/v3.7.1/protobuf-cpp-3.7.1.tar.gz \
-    && tar -xzvf protobuf-cpp-3.7.1.tar.gz \
+COPY ./protobuf-cpp-3.7.1.tar.gz /usr/local/protobuf-cpp-3.7.1.tar.gz
+RUN  cd /usr/local && tar -xzvf protobuf-cpp-3.7.1.tar.gz && cd protobuf-3.7.1 \
     && ./autogen.sh && ./configure \
-    && make && make check && make install && ldconfig\
+    && make && make check && make install && ldconfig && \
 
 
 #COPY . /usr/src/xdapp-server

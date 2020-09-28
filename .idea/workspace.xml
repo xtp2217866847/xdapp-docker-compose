@@ -19,8 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159e8663-58d5-4f83-9abd-63db5eba2f8e" name="Default Changelist" comment="init">
+    <list default="true" id="159e8663-58d5-4f83-9abd-63db5eba2f8e" name="Default Changelist" comment="add protobuf">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/php/Dockerfile" beforeDir="false" afterPath="$PROJECT_DIR$/php/Dockerfile" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,13 +49,13 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/php" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/nginx/sites" />
       <recent name="$PROJECT_DIR$/php-fpm" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
     </key>
   </component>
   <component name="RunManager" selected="Docker.docker-compose.yml.memcache: Compose Deployment">
@@ -152,8 +153,23 @@
       <workItem from="1600683086837" duration="778000" />
       <workItem from="1600739340014" duration="4372000" />
       <workItem from="1601259948850" duration="3473000" />
-      <workItem from="1601275089677" duration="10000" />
+      <workItem from="1601275089677" duration="611000" />
     </task>
+    <task id="LOCAL-00001" summary="add protobuf">
+      <created>1601275190038</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1601275190038</updated>
+    </task>
+    <task id="LOCAL-00002" summary="add protobuf">
+      <created>1601275331348</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1601275331348</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -171,6 +187,10 @@
     </option>
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="add protobuf" />
+    <option name="LAST_COMMIT_MESSAGE" value="add protobuf" />
+  </component>
   <component name="WindowStateProjectService">
     <state x="-883" y="1151" key="#Other_File_Types" timestamp="1601275036122">
       <screen x="-1440" y="23" width="1440" height="2537" />
@@ -180,9 +200,14 @@
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="789" y="370" key="SettingsEditor/0.23.2560.1417@0.23.2560.1417" timestamp="1600310462633" />
-    <state x="988" y="470" width="584" height="522" key="find.popup" timestamp="1600671379130">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="-1120" y="1027" key="Vcs.Push.Dialog.v2" timestamp="1601275285537">
+      <screen x="-1440" y="23" width="1440" height="2537" />
     </state>
+    <state x="-1120" y="1027" key="Vcs.Push.Dialog.v2/0.23.2560.1417/-1440.23.1440.2537@-1440.23.1440.2537" timestamp="1601275285537" />
+    <state x="-884" y="823" width="556" height="935" key="find.popup" timestamp="1601275488521">
+      <screen x="-1440" y="23" width="1440" height="2537" />
+    </state>
+    <state x="-884" y="823" width="556" height="935" key="find.popup/0.23.2560.1417/-1440.23.1440.2537@-1440.23.1440.2537" timestamp="1601275488521" />
     <state x="988" y="470" width="584" height="522" key="find.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1600671379130" />
     <state x="945" y="348" width="670" height="676" key="search.everywhere.popup" timestamp="1600398413407">
       <screen x="0" y="23" width="2560" height="1417" />
