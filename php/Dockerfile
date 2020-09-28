@@ -46,13 +46,7 @@ COPY ./docker-php-ext-sdebug.ini /usr/local/etc/php/conf.d
 RUN docker-php-ext-install bcmath
 
 #安装protobuf
-RUN apt-get install -y wget autoconf automake libtool curl make g++ unzip
-COPY ./protobuf-cpp-3.7.1.tar.gz /usr/local/protobuf-cpp-3.7.1.tar.gz
-RUN  cd /usr/local && tar -xzvf protobuf-cpp-3.7.1.tar.gz && cd protobuf-3.7.1 \
-    && ./autogen.sh && ./configure \
-    && make && make check && make install && ldconfig && \
+RUN apt-get install -y protobuf-compiler
 
-
-#COPY . /usr/src/xdapp-server
 WORKDIR /usr/src/xdapp-server
 #CMD [ "./bin/Server start" ]
