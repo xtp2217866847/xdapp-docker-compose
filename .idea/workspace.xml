@@ -19,7 +19,9 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="159e8663-58d5-4f83-9abd-63db5eba2f8e" name="Default Changelist" comment="" />
+    <list default="true" id="159e8663-58d5-4f83-9abd-63db5eba2f8e" name="Default Changelist" comment="init">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -46,6 +48,9 @@
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/php" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$" />
       <recent name="$PROJECT_DIR$/nginx/sites" />
@@ -146,7 +151,8 @@
       <workItem from="1600674487373" duration="5634000" />
       <workItem from="1600683086837" duration="778000" />
       <workItem from="1600739340014" duration="4372000" />
-      <workItem from="1601259948850" duration="3082000" />
+      <workItem from="1601259948850" duration="3473000" />
+      <workItem from="1601275089677" duration="10000" />
     </task>
     <servers />
   </component>
@@ -166,6 +172,10 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-883" y="1151" key="#Other_File_Types" timestamp="1601275036122">
+      <screen x="-1440" y="23" width="1440" height="2537" />
+    </state>
+    <state x="-883" y="1151" key="#Other_File_Types/0.23.2560.1417/-1440.23.1440.2537@-1440.23.1440.2537" timestamp="1601275036122" />
     <state x="789" y="370" key="SettingsEditor" timestamp="1600310462633">
       <screen x="0" y="23" width="2560" height="1417" />
     </state>
